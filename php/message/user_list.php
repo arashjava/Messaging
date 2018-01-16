@@ -11,7 +11,7 @@
 			<!--Nav_Tabs-->
 			<tr align='center' bgcolor='lightgrey' class='td_bor'>
 				<td width='5%'> <?php Session_start(); if(IsSet($_SESSION["user_id"])) {echo "<a href='../user_page.php'>"; } else {echo "<a href='../home.php'>";}?>Home </a></td>
-				<td width='5%'> <a href='inbox.php'>Inbox (Only Recent Message)</a></td>
+				<td width='5%'> <a href='inbox.php'>Inbox </a></td>
 				<td width='5%'> <a href='user_list.php'>User List </a></td>
 				<td width='5%'> <a href='../login/signout.php'>Signout </a></td>
 
